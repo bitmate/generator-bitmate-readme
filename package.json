@@ -1,13 +1,13 @@
 {
   "name": "generator-bitmate-readme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BitMate generator for creating readme files",
   "main": "index.js",
   "repository": "oligibson/generator-bitmate-readme",
   "author": "BitMate",
   "license": "UNLICENSED",
   "dependencies": {
-    "bitmate-generator": "^1.0.0"
+    "bitmate-generator": "^1.0.1"
   },
   "devDependencies": {
     "ava": "^0.16.0",
