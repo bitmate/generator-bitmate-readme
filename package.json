@@ -1,13 +1,14 @@
 {
-  "name": "generator-bitmate-readme",
+  "name": "@oligibson/generator-bitmate-readme",
   "version": "1.0.2",
   "description": "BitMate generator for creating readme files",
+  "homepage": "https://bitmate.io/",
   "main": "index.js",
   "repository": "oligibson/generator-bitmate-readme",
   "author": "BitMate",
   "license": "UNLICENSED",
   "dependencies": {
-    "bitmate-generator": "^1.0.2"
+    "@oligibson/bitmate-generator": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.16.0",
@@ -43,8 +44,5 @@
   },
   "eslintConfig": {
     "extends": "xo-space/esnext"
-  },
-  "publishConfig": {
-    "registry": "http://sinopia.bitmate.io/"
   }
 }
