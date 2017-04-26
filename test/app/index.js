@@ -16,6 +16,6 @@ test.beforeEach(() => {
 });
 
 test('Copy README.md', t => {
-  Utils.call(context, 'writing', {client: 'react', modules: 'webpack', css: 'scss', js: 'babel'});
+  Utils.call(context, 'writing', {server: 'express', client: 'react', modules: 'webpack', css: 'scss', js: 'babel'});
   t.true(context.copyTemplate['README.md'].length > 0);
 });
