@@ -27,7 +27,7 @@
   },
   "ava": {
     "files": [
-      "test/app/**/*.js"
+      "test/**/*.js"
     ]
   },
   "nyc": {
